@@ -219,10 +219,20 @@ https://nhiroki.jp/2023/02/13/metrics-for-prerendering
 
 個人的には、iOS/iPadOS の Safari における通知対応の記事に心を持っていかれた回でした。モバイル端末において Web アプリケーションがますます活躍する未来に期待ですね！
 
-フロントエンドエキスパートチームでは毎月、最終火曜日の 17 時から Frontend Monthly というイベントを YouTube Live で開催しています。その月のフロントエンド注目ニュースや、ゲストを呼んでの対談など、フロントエンドに関する発信していますので是非どうぞ！
+サイボウズでは毎月、最終火曜日の 17 時から Frontend Monthly というイベントを YouTube Live で開催しています。その月のフロントエンド注目ニュースや、ゲストを呼んでの対談など、フロントエンドに関する発信していますので是非どうぞ！
 
 https://www.youtube.com/playlist?list=PLPTndynQK4dxLZFEZgOZjt_zKG-0JWoWy
 
-またフロントエンドエキスパートチームでは、一緒にサイボウズのフロントエンドを最高にする仲間を募集しています。興味ある方はこちら ↓ から！
+また、サイボウズでは一緒にサイボウズのフロントエンドをより良くする仲間を募集しています。興味ある方はこちら ↓ から！
+
+**【フロントエンドエキスパート】**
+サイボウズのフロントエンドを最高にするためのチームです！
 
 https://cybozu.github.io/frontend-expert/
+
+https://cybozu.co.jp/recruit/entry/career/front-end-expert.html
+
+**【フロントエンドエンジニア（kintone アーキテクチャ刷新 PJ）】**
+クラウドサービス「kintone」のフロントエンドを新しくしています！
+
+https://cybozu.co.jp/recruit/entry/career/front-end-engineer-kintone.html
