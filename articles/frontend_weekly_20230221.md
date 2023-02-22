@@ -31,13 +31,13 @@ https://blog.stackblitz.com/posts/webcontainer-api-is-here/
 
 2 月 14 日、[WebContainers](https://webcontainers.io/) の API（WebContainer API）が公開されました。WebContainers は WebAssembly ベースのランタイムで、ブラウザ上で Node.js を動かすことができます。
 
-既に WebContainers を採用している[Svelte のチュートリアル](https://learn.svelte.dev/tutorial/welcome-to-svelte)を見ても分かるように、特別な環境構築をしなくとも Node.js のプログラムを簡単に実行することができるのが便利ですね！
+既に WebContainers を採用している[Svelte のチュートリアル](https://learn.svelte.dev/tutorial/welcome-to-svelte)を見ても分かるように、特別な環境構築をしなくとも Node.js のプログラムを簡単に実行することができるのが便利ですね。
 
 ## Announcing Sandpack 2.0 and a Node.js runtime for any browser
 
 https://codesandbox.io/blog/announcing-sandpack-2
 
-WebContainer API 公開の 2 日後にあたる 2 月 16 日、CodeSandbox 社はブラウザ上で Node.js を実行できるランタイム Sandpack 2.0 を公開しました！
+WebContainer API 公開の 2 日後にあたる 2 月 16 日、CodeSandbox 社はブラウザ上で Node.js を実行できるランタイム Sandpack 2.0 を公開しました。
 
 記事の文中では、Sandpack 2.0 の実例として Node.js やサーバーサイドレンダリングを行う Next.js などのコードが実際にブラウザ上で動作することを確認できます。
 
@@ -47,7 +47,7 @@ WebContainer API 公開の 2 日後にあたる 2 月 16 日、CodeSandbox 社�
 
 https://www.mozilla.org/en-US/firefox/110.0/releasenotes/
 
-2 月 14 日にリリースされた Firefox 110.0 にて、CSS の [Container Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Container_Queries) がサポートされました！
+2 月 14 日にリリースされた Firefox 110.0 にて、CSS の [Container Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Container_Queries) がサポートされました。
 
 今回の Firefox の対応により、全ての主要ブラウザで Container Queries を利用できます。
 
@@ -57,7 +57,7 @@ Container Queries を利用すると、コンテナと呼ばれる特定の要�
 
 https://webkit.org/blog/13878/web-push-for-web-apps-on-ios-and-ipados/
 
-2 月 16 日に公開された iOS/iPadOS 16.4 beta 1 にて、ホーム画面に追加した Web アプリ（PWA）からプッシュ通知ができるようになりました！
+2 月 16 日に公開された iOS/iPadOS 16.4 beta 1 にて、ホーム画面に追加した Web アプリ（PWA）からプッシュ通知ができるようになりました。
 
 iPhone/iPad においてモバイルアプリの専売特許だった通知機能が Web アプリでも実現可能になることで PWA の導入が加速するのでは、という声が社内からあがりました。
 
@@ -80,7 +80,7 @@ https://uki00a.github.io/deno-weekly/articles/2023/02/19
 
 Node.js の開発者 Ryan Dahl さんが手がける JS/TS ランタイム[Deno](https://deno.land/)の最新情報が週次で公開されるサイトです。
 
-Deno のレポジトリの Issue や Pull Request などに基づくニュースが平易な日本語で書かれており、英語が苦手な方でも Deno の動向を容易にキャッチアップできます！
+Deno のレポジトリの Issue や Pull Request などに基づくニュースが平易な日本語で書かれており、英語が苦手な方でも Deno の動向を容易にキャッチアップできます。
 
 今週は、`deno_std/node` が Deno 本体に組み込まれたという件、Node-API が安定化した件が報じられていました。
 
@@ -190,7 +190,7 @@ https://zenn.dev/ryo_kawamata/articles/vue3-upgrade-guide
 
 Vue 3 で新たに追加された API や構文が紹介されている記事です。
 
-Codesandbox による実装例がひとつひとつ添えられており、実装とその挙動を確かめながら読み進めることができる丁寧な作りになっています。Vue をゴリゴリ書く方だけでなく、教養的に内容を知りたい方にとっても役立つ内容です！
+Codesandbox による実装例がひとつひとつ添えられており、実装とその挙動を確かめながら読み進めることができる丁寧な作りになっています。Vue をゴリゴリ書く方だけでなく、教養的に内容を知りたい方にとっても役立つ内容です。
 
 ## 「Announcing AI Commits – a CLI tool that generates your commit message for you with AI. Available on npm today!」
 
@@ -208,7 +208,7 @@ https://zenn.dev/nado1001/articles/plasmo-browser-extension
 
 ブラウザ拡張機能開発のフレームワーク[plasmo](https://www.plasmo.com/)の紹介記事です。
 
-plasmo は、React や TypeScript をサポートしており、フロントエンド開発の技術スタックに近い形でブラウザ拡張機能を開発することができます。これによって、フロントエンドエンジニアによるブラウザ拡張開発機能の敷居が下がることを期待しています！
+plasmo は、React や TypeScript をサポートしており、フロントエンド開発の技術スタックに近い形でブラウザ拡張機能を開発することができます。これによって、フロントエンドエンジニアによるブラウザ拡張開発機能の敷居が下がることを期待しています。
 
 ## Speculation Rules API によるプリレンダリングのためのメトリクス設計
 
@@ -229,13 +229,13 @@ https://www.youtube.com/playlist?list=PLPTndynQK4dxLZFEZgOZjt_zKG-0JWoWy
 また、サイボウズでは一緒にサイボウズのフロントエンドをより良くする仲間を募集しています。興味ある方はこちら ↓ から！
 
 **【フロントエンドエキスパート】**
-サイボウズのフロントエンドを最高にするためのチームです！
+サイボウズのフロントエンドを最高にするためのチームです。
 
 https://cybozu.github.io/frontend-expert/
 
 https://cybozu.co.jp/recruit/entry/career/front-end-expert.html
 
 **【フロントエンドエンジニア（kintone アーキテクチャ刷新 PJ）】**
-クラウドサービス「kintone」のフロントエンドを新しくしています！
+クラウドサービス「kintone」のフロントエンドを新しくしています。
 
 https://cybozu.co.jp/recruit/entry/career/front-end-engineer-kintone.html
