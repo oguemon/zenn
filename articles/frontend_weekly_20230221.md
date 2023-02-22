@@ -29,11 +29,11 @@ Shopify 社は、Remix を手掛けていた Remix 社を[2022 年に買収し�
 
 https://blog.stackblitz.com/posts/webcontainer-api-is-here/
 
-2 月 14 日、[Web Container](https://webcontainers.io/) の API が公開されました。Web Container は WebAssembly ベースのランタイムで、ブラウザの処理によって Node.js を動かすことができます。
+2 月 14 日、[WebContainers](https://webcontainers.io/) の API（WebContainer API）が公開されました。WebContainers は WebAssembly ベースのランタイムで、ブラウザの処理によって Node.js を動かすことができます。
 
 ローカルで環境構築をしなくともサーバサイドライブラリ等を簡単に試すことができることから、社内ではチュートリアル用途での利用の拡大が期待されていました。
 
-実際、Web Container は既に[Svelte のチュートリアル](https://learn.svelte.dev/tutorial/welcome-to-svelte)で活用されています。
+実際、WebContainers は既に[Svelte のチュートリアル](https://learn.svelte.dev/tutorial/welcome-to-svelte)で活用されています。
 
 ## Announcing Sandpack 2.0 and a Node.js runtime for any browser
 
@@ -43,7 +43,7 @@ WebContainer API 公開の 2 日後にあたる 2 月 16 日、CodeSandbox 社�
 
 記事の文中では、Sandpack 2.0 の実例として Node.js や Next.js などを用いたサーバサイドコードが埋め込まれており、実際にブラウザ上で動作することを確かめられます。
 
-前述した WebContainers と違って、モダンブラウザの技術を使わずに実装されているため、iOS のブラウザなどでも動作するのが特長です。一方で、メモリ消費に対する懸念から Node API に完全対応しているわけでない点に留意が必要です。
+前述した WebContainers と違って、モダンブラウザの技術を使わずに実装されているため、iOS のブラウザなどでも動作するのが特長です。一方で、スレッド増加によるメモリ消費量や、 Node API との完全な互換性がない点に留意が必要です。
 
 ## Firefox 110.0, See All New Features, Updates and Fixes
 
@@ -205,13 +205,13 @@ https://zenn.dev/nado1001/articles/plasmo-browser-extension
 
 ブラウザ拡張機能開発のフレームワーク[plasmo](https://www.plasmo.com/)の紹介記事です。
 
-plasmo は、React や Typescript をサポートしており、フロントエンド開発の技術スタックに近い形でブラウザ拡張機能を開発することができます。フロントエンドエンジニアによるブラウザ拡張開発機能の敷居が下がることが期待されています。
+plasmo は、React や TypeScript をサポートしており、フロントエンド開発の技術スタックに近い形でブラウザ拡張機能を開発することができます。これによって、フロントエンドエンジニアによるブラウザ拡張開発機能の敷居が下がることを期待しています！
 
 ## Speculation Rules API によるプリレンダリングのためのメトリクス設計
 
 https://nhiroki.jp/2023/02/13/metrics-for-prerendering
 
-プリレンダリング時を用いているサイトにおいて、 [LCP](https://web.dev/i18n/ja/lcp/) を正確に計測するのは決して容易なことではありません。
+プリレンダリングしているサイトにおいて、 [LCP](https://web.dev/i18n/ja/lcp/) を正確に計測するのは決して容易なことではありません。
 
 そこで、この記事では、 Resource Timing API に追加された `activationStart` について述べつつ、プリレンダリングにおけるメトリクスの取り方について解説しています。
 
@@ -219,7 +219,7 @@ https://nhiroki.jp/2023/02/13/metrics-for-prerendering
 
 個人的には、iOS/iPadOS の Safari における通知対応の記事に心を持っていかれた回でした。モバイル端末において Web アプリケーションがますます活躍する未来に期待ですね！
 
-フロントエンドエキスパートチームでは毎月、最終火曜日の 17 時から Frontend Monthly というイベントを Youtube Live で開催しています。その月のフロントエンド注目ニュースやゲストを呼んでの対談などフロントエンドに関する発信していますので是非どうぞ！
+フロントエンドエキスパートチームでは毎月、最終火曜日の 17 時から Frontend Monthly というイベントを YouTube Live で開催しています。その月のフロントエンド注目ニュースや、ゲストを呼んでの対談など、フロントエンドに関する発信していますので是非どうぞ！
 
 https://www.youtube.com/playlist?list=PLPTndynQK4dxLZFEZgOZjt_zKG-0JWoWy
 
