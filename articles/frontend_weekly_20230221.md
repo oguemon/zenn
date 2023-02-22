@@ -29,19 +29,17 @@ Shopify 社は、Remix を手掛けていた Remix 社を[2022 年に買収し�
 
 https://blog.stackblitz.com/posts/webcontainer-api-is-here/
 
-2 月 14 日、[WebContainers](https://webcontainers.io/) の API（WebContainer API）が公開されました。WebContainers は WebAssembly ベースのランタイムで、ブラウザの処理によって Node.js を動かすことができます。
+2 月 14 日、[WebContainers](https://webcontainers.io/) の API（WebContainer API）が公開されました。WebContainers は WebAssembly ベースのランタイムで、ブラウザ上で Node.js を動かすことができます。
 
-ローカルで環境構築をしなくともサーバサイドライブラリ等を簡単に試すことができることから、社内ではチュートリアル用途での利用の拡大が期待されていました。
-
-実際、WebContainers は既に[Svelte のチュートリアル](https://learn.svelte.dev/tutorial/welcome-to-svelte)で活用されています。
+既に WebContainers を採用している[Svelte のチュートリアル](https://learn.svelte.dev/tutorial/welcome-to-svelte)を見ても分かるように、特別な環境構築をしなくとも Node.js のプログラムを簡単に実行することができるのが便利ですね！
 
 ## Announcing Sandpack 2.0 and a Node.js runtime for any browser
 
 https://codesandbox.io/blog/announcing-sandpack-2
 
-WebContainer API 公開の 2 日後にあたる 2 月 16 日、CodeSandbox 社はブラウザ上で Node.js のサーバサイドコードが動作するランタイム Sandpack 2.0 を公開しました！
+WebContainer API 公開の 2 日後にあたる 2 月 16 日、CodeSandbox 社はブラウザ上で Node.js を実行できるランタイム Sandpack 2.0 を公開しました！
 
-記事の文中では、Sandpack 2.0 の実例として Node.js や Next.js などを用いたサーバサイドコードが埋め込まれており、実際にブラウザ上で動作することを確かめられます。
+記事の文中では、Sandpack 2.0 の実例として Node.js やサーバーサイドレンダリングを行う Next.js などのコードが実際にブラウザ上で動作することを確認できます。
 
 前述した WebContainers と違って、モダンブラウザの技術を使わずに実装されているため、iOS のブラウザなどでも動作するのが特長です。一方で、スレッド増加によるメモリ消費量や、 Node API との完全な互換性がない点に留意が必要です。
 
@@ -49,11 +47,11 @@ WebContainer API 公開の 2 日後にあたる 2 月 16 日、CodeSandbox 社�
 
 https://www.mozilla.org/en-US/firefox/110.0/releasenotes/
 
-2 月 14 日にリリースされた Firefox 110.0 にて、CSS の [Container queries](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Container_Queries) がサポートされました！
+2 月 14 日にリリースされた Firefox 110.0 にて、CSS の [Container Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Container_Queries) がサポートされました！
 
-Container queries は、コンテナと呼ばれる特定の要素のサイズに応じて要素のスタイリングを条件分けできる記法で、レスポンシブデザインの実装方法に革新をもたらす可能性を秘めています。
+今回の Firefox の対応により、全ての主要ブラウザで Container Queries を利用できます。
 
-Firefox の対応により、全ての主要ブラウザで Container queries を利用できるようになりました。Container queries の時代の到来を予感させます。
+Container Queries を利用すると、コンテナと呼ばれる特定の要素のサイズに応じて要素のスタイリングを条件分けできます。コンポーネントベースの開発とも相性が良さそうなので積極的に使っていきたいですね。
 
 ## Web Push for Web Apps on iOS and iPadOS
 
@@ -61,7 +59,7 @@ https://webkit.org/blog/13878/web-push-for-web-apps-on-ios-and-ipados/
 
 2 月 16 日に公開された iOS/iPadOS 16.4 beta 1 にて、ホーム画面に追加した Web アプリ（PWA）からプッシュ通知ができるようになりました！
 
-iPhone/iPad においてモバイルアプリの専売特許だった通知機能が Web アプリでも実現可能になることで PWA の導入が加速することを期待する声が社内からあがりました。
+iPhone/iPad においてモバイルアプリの専売特許だった通知機能が Web アプリでも実現可能になることで PWA の導入が加速するのでは、という声が社内からあがりました。
 
 ## 「Safari 16.4 Beta リリース。盛りだくさんなので、ピックアップしていく」
 
@@ -69,7 +67,12 @@ https://twitter.com/azu_re/status/1627303346469240833
 
 前項に関連する、Safari 16.4 Beta のリリースノート解説 Tweet です。[JSerInfo](https://jser.info/) の運営などで知られる[azu](https://twitter.com/azu_re)さんにより投稿されました。主な新機能がスレッドの中で紹介されています。
 
-[リリースノート原文](https://developer.apple.com/documentation/safari-release-notes/safari-16_4-release-notes)を見ても分かるように、本更新は非常に多くの機能追加を含んでおり、社内でも大きな期待が寄せられてました。
+[リリースノート原文](https://developer.apple.com/documentation/safari-release-notes/safari-16_4-release-notes)を見ても分かるように、本更新は
+
+- [CSS Typed Object Model API](https://developer.mozilla.org/en-US/docs/Web/API/CSS_Typed_OM_API)のサポート
+- [Fetch Metadata Request Headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers#fetch_metadata_request_headers)のサポート
+
+など、多くの機能追加を含んでおり、社内でも大きな期待が寄せられてました。
 
 ## 2022/02/13〜2023/02/19 の最新情報 | 週刊 Deno
 
@@ -79,7 +82,7 @@ Node.js の開発者 Ryan Dahl さんが手がける JS/TS ランタイム[Deno]
 
 Deno のレポジトリの Issue や Pull Request などに基づくニュースが平易な日本語で書かれており、英語が苦手な方でも Deno の動向を容易にキャッチアップできます！
 
-今週は、`deno_std/node` が Deno 本体に組み込まれたという変更が報じられていました。内部 API の活用や、Node.js 互換レイヤーの Rust 化の予定を受けて、パフォーマンスの向上を期待する声が社内からあがりました。
+今週は、`deno_std/node` が Deno 本体に組み込まれたという件、Node-API が安定化した件が報じられていました。
 
 ## 「A super early Stage 0 proposal by @threepointone to add a built-in assertion function to JavaScript 🎉」
 
@@ -89,7 +92,7 @@ https://github.com/threepointone/proposal-error-assert
 
 ECMAScript で`Error.assert(condition, message);`を利用できるようにする提案が、ECMAScript の仕様を決める委員会 [TC39](https://tc39.es/) において Stage 0 (strawperson)に加えられました。
 
-`Error.assert()`はコードの安全性などに寄与するメソッドで、TypeScript などでは類似するものが既に実装されています。
+`Error.assert()`はコードの安全性に寄与するメソッドで、TypeScript では類似するものが既に実装されています。
 
 仕様策定までのステージは、0(strawperson)〜4(maturity)の 5 段階あり、実現までの道のりは決して短くありませんが、今後の動向に要注目です。
 
@@ -219,7 +222,7 @@ https://nhiroki.jp/2023/02/13/metrics-for-prerendering
 
 個人的には、iOS/iPadOS の Safari における通知対応の記事に心を持っていかれた回でした。モバイル端末において Web アプリケーションがますます活躍する未来に期待ですね！
 
-サイボウズでは毎月、最終火曜日の 17 時から Frontend Monthly というイベントを YouTube Live で開催しています。その月のフロントエンド注目ニュースや、ゲストを呼んでの対談など、フロントエンドに関する発信していますので是非どうぞ！
+サイボウズでは毎月、最終火曜日の 17 時から Frontend Monthly というイベントを YouTube Live で開催しています。その月のフロントエンド注目ニュースや、ゲストを呼んでの対談など、フロントエンドに関する発信をしていますので是非どうぞ！
 
 https://www.youtube.com/playlist?list=PLPTndynQK4dxLZFEZgOZjt_zKG-0JWoWy
 
