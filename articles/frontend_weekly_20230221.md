@@ -208,7 +208,7 @@ https://zenn.dev/nado1001/articles/plasmo-browser-extension
 
 ブラウザ拡張機能開発のフレームワーク[plasmo](https://www.plasmo.com/)の紹介記事です。
 
-plasmo は、React や TypeScript をサポートしており、フロントエンド開発の技術スタックに近い形でブラウザ拡張機能を開発することができます。これによって、フロントエンドエンジニアによるブラウザ拡張開発機能の敷居が下がることを期待しています。
+plasmo は、React や TypeScript をサポートしており、フロントエンド開発の技術スタックに近い形でブラウザ拡張機能を開発することができます。これによって、フロントエンドエンジニアによるブラウザ拡張機能開発の敷居が下がることを期待しています。
 
 ## Speculation Rules API によるプリレンダリングのためのメトリクス設計
 
