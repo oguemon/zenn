@@ -1,6 +1,6 @@
 ---
 title: "Chrome 113 でWebGPUをデフォルト利用可能になど : Cybozu Frontend Weekly (2023-04-11号)" # 目立ったニュースを選ぶ
-emoji: "🔔" # お好きな絵文字を
+emoji: "🌊" # お好きな絵文字を
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["CybozuFrontendWeekly", "frontend"]
 published: false
