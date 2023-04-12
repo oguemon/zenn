@@ -55,7 +55,7 @@ https://developer.chrome.com/blog/webgpu-release/
 
 WebGPU は、WebGL よりも柔軟かつ高度な GPU プログラミングを可能にする API 仕様です。
 
-機械学習ライブラリの[TensorFlow.js](https://threejs.org/)や、3DCG ライブラリの[Three.js](https://threejs.org/)などで WebGPU 対応が進められています。
+機械学習ライブラリの[TensorFlow.js](https://github.com/tensorflow/tfjs)や、3DCG ライブラリの[Three.js](https://threejs.org/)などで WebGPU 対応が進められています。
 
 ## フロントエンドテスト、モジュールモックで Storybook のインタラクションテストの開発コストを下げる
 
