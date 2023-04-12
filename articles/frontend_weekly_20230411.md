@@ -33,7 +33,7 @@ https://twitter.com/rauchg/status/1643977860024254466
 
 https://nextjs.org/
 
-新しいサイトでは、[組積レイアウト](https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Grid_Layout/Masonry_Layout)が導入されるなどの変更が加えられております。
+新しいサイトでは、[Masonry レイアウト](https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Grid_Layout/Masonry_Layout)が導入されるなどの変更が加えられております。
 
 ## The future of Chakra UI
 
@@ -65,7 +65,7 @@ Storybook 上でのモジュールのモックを可能にするライブラリ[
 
 Storybook は、ブラウザで動作を確認しながらテストコードを確認できるメリットを持ちますが、一方でモジュールのモック機能を持たないため、Jest でいう`jest.mock`のような機能を実現するために独自の実装が必要でした。このライブラリはそうした課題の解決にアプローチしてくれます。
 
-この記事は、具体的な実装例を通じてライブラリの利用方法をわかりやすく教示しています。
+この記事は、具体的な実装例を通じてライブラリの利用方法をわかりやすく解説しています。
 
 ## Next.js 13.3
 
@@ -111,9 +111,9 @@ https://chromium.googlesource.com/chromium/src/+/refs/heads/main/docs/speed/metr
 
 https://v8.dev/blog/wasm-tail-call
 
-テールコール最適化は、関数の呼び出し階層が深くなりすぎた時に呼び出し情報のスタックがオーバーフローすることを防ぐために行われる最適化処理の一つです。
+末尾呼出し最適化（Tail Call Optimization）は、関数の呼び出し階層が深くなりすぎた時に呼び出し情報のスタックがオーバーフローすることを防ぐために行われる最適化処理の一つです。
 
-この記事では、V8 におけるテールコール最適化の技術的工夫について扱っています。
+この記事では、V8 における末尾呼出し最適化の技術的工夫について扱っています。
 
 # あとがき
 
