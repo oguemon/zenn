@@ -21,9 +21,9 @@ publication_name: "cybozu_frontend"
 
 https://hack.nikkei.com/blog/denshiban-ssr/
 
-[日経新聞社](https://www.nikkei.com/)は、日経電子版において独自の SSR フレームワークを自作しています。
+[日経新聞社](https://www.nikkei.com/)が日経電子版で使っている独自 SSR フレームワークの紹介記事です。
 
-この記事では、SSR フレームワークを自社開発している理由、どのようにして自作しているのかなどに触れています。
+この記事では、SSR フレームワークを自社開発している理由、どのようにして実装しているのかなどに触れています。
 
 メディアサイトの特性や既存の構成などを考慮した検討、自作する上での課題などが述べられています。
 
@@ -41,9 +41,9 @@ Prisma 5 では、Prisma のパフォーマンス向上を図るため、Prisma 
 
 https://www.solidjs.com/blog/chrome-supports-solidjs
 
-高いパフォーマンスが特徴の UI フレームワーク[Solid.js](https://www.solidjs.com/) が、Chrome チームから Aurora プロジェクト を通じて 30,000 ドルの資金援助を受けました。
+高いパフォーマンスが特徴の UI フレームワーク[Solid.js](https://www.solidjs.com/) が、Aurora プロジェクト を通じて Chrome チームから 30,000 ドルの資金援助を受けました。
 
-[Aurora](https://developer.chrome.com/aurora/)とは、Web 体験の向上に寄与する OSS プロジェクトと Chrome とのコラボレーションプロジェクトのことです。
+[Aurora](https://developer.chrome.com/aurora/)とは、Web 体験の向上に寄与する OSS プロジェクトと Chrome とのコラボレーションプロジェクトです。
 
 この資金援助を通じて、Core Web Vitals の向上を実現するために Solid.js が手がけている技術開発を継続的に進めていくようです。
 
@@ -51,7 +51,7 @@ https://www.solidjs.com/blog/chrome-supports-solidjs
 
 https://webkit.org/standards-positions/
 
-HTML レンダリングエンジン [WebKit](https://webkit.org/) が、現在提案、策定された Web 仕様に対してどのポジション取っているのかを一覧で確認できるページです。
+HTML レンダリングエンジン [WebKit](https://webkit.org/) が、現在提案・策定された Web 仕様に対してどのポジション取っているのかを一覧で確認できるページです。
 
 ポジションには、`support`（支持）と`oppose`（反対）、`neutral`（中立）があります。
 
@@ -63,9 +63,9 @@ https://developer.chrome.com/blog/scroll-animation-performance-case-study/
 
 Chrome115 で新しく登場した、スクロール駆動のアニメーションを実現するための CSS プロパティ`animation-timeline` と JavaScript クラス`ScrollTimeline` の紹介記事です。
 
-これらを用いると、あるコンテンツのスクロール量に応じたアニメーションを実装することができます。
+これらを用いると、あるコンテンツのスクロール量に応じたアニメーションを実装できます。
 
-従来のスクロールイベントを用いた制御と異なり、メインスレッドへの負担を抑えることができるので、よりスムーズな動作を期待することができます。
+従来のスクロールイベントを用いた制御と異なり、メインスレッドへの負担を抑えることができるので、よりスムーズな動作を期待できます。
 
 ## npm package aws-sdk has been tested and works on Deno
 
