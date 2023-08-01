@@ -9,7 +9,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "zenn-cli": "^0.1.140"
+  "devDependencies": {
+    "zenn-cli": "0.1.144",
+    "prettier": "3.0.0"
   }
 }
