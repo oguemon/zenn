@@ -3,7 +3,7 @@ title: "誰でも簡単⁉️👀 絵文字ができるまで😃👍"
 emoji: "🗿"
 type: "tech"
 topics: ["絵文字", "unicode", "design"]
-published: false
+published: true
 publication_name: "cybozu_frontend"
 ---
 
