@@ -61,13 +61,13 @@ Full Membersは、Adobe社やairbnb社、NETFLIX社、GAFAなどの大企業10�
 
 https://home.unicode.org/membership/members/
 
-Unicodeの仕様策定のなかでもEmojiの仕様の候補案は**Emoji分科会**（Emoji Subcommittee）が策定します。Emoji分科会の座長はGoogle社のデザイナーである[Jennifer Daniel](https://twitter.com/jenniferdaniel)さんで、彼女もまた過去に数多くの絵文字を生み出しています（🥹🫠🫥🥲🫡など…）。
+Unicodeの仕様策定のなかでもEmojiの仕様の候補案は**Emoji分科会**（Emoji Subcommittee）が策定します。Emoji分科会の座長はGoogle社のデザイナーである[Jennifer Daniel](https://twitter.com/jenniferdaniel)さんで、彼女もまた過去に数多くのEmojiを生み出しています（🥹🫠🫥🥲🫡など…）。
 
 # Emojiができるまでの流れ（🫚を例に）
 
 新しいEmojiの作成は、誰かが新しいEmojiの提案書（Proposal）をEmoji分科会に提出するところから始まり、世界中のデバイスで使えるようになるところがゴールです。
 
-ここでは、UnicodeのEmoji仕様の最新版である[Emoji 15.0](https://www.unicode.org/reports/tr51/tr51-23.html)で追加された今一番新しいEmojiの1つ、**生姜の根**（🫚）を例にして、Emojiができるまでの流れを追っていきます。
+ここでは、UnicodeのEmoji仕様の最新版である[Emoji 15.0](https://www.unicode.org/reports/tr51/tr51-23.html)で追加された今一番新しいEmojiの1つ、🫚（**生姜の根**）を例にして、Emojiができるまでの流れを追っていきます。
 
 ![ginger root](/images/how_to_propose_a_new_emoji/ginger_root.webp)
 
@@ -80,7 +80,7 @@ Unicodeの仕様策定のなかでもEmojiの仕様の候補案は**Emoji分科�
 ![ginger proposal](/images/how_to_propose_a_new_emoji/ginger_proposal.webp)
 _[提出された提案書](https://www.unicode.org/L2/L2021/21200-ginger-emoji.pdf)の一部_
 
-採択された絵文字の提案書は基本的にUnicodeコンソーシアムのドキュメントとして公開されています^[[Emoji Proposals, v15.0](https://www.unicode.org/emoji/charts/emoji-proposals.html)]。この提案書も例外でなく、以下のリンクから確認できます。
+採択されたEmojiの提案書は基本的にUnicodeコンソーシアムのドキュメントとして公開されています^[[Emoji Proposals, v15.0](https://www.unicode.org/emoji/charts/emoji-proposals.html)]。この提案書も例外でなく、以下のリンクから確認できます。
 
 https://www.unicode.org/L2/L2021/21200-ginger-emoji.pdf
 
@@ -165,13 +165,13 @@ Emojiの採択にはたくさんの条件があります。
 
 高頻度で使われるかどうかです。ガイドラインでは、次のサービスを用いた調査結果を示すことを必須としています。
 
-| サービス                    | 備考                                         |
-| :-------------------------- | :------------------------------------------- |
-| Google Search               | **7.5億件**が目安                            |
-| Bing Search                 | **2,500万件**が目安                          |
-| Google Video Search         | **7,500万件**が目安                          |
-| Google Trends: Web Search   | *elephant*との比較結果を示す必要があります🐘 |
-| Google Trends: Image Search | *elephant*との比較結果を示す必要があります🐘 |
+| サービス                    | 備考                                     |
+| :-------------------------- | :--------------------------------------- |
+| Google Search               | **7.5億件**が目安                        |
+| Bing Search                 | **2,500万件**が目安                      |
+| Google Video Search         | **7,500万件**が目安                      |
+| Google Trends: Web Search   | *elephant*との比較結果を示す必要がある🐘 |
+| Google Trends: Image Search | *elephant*との比較結果を示す必要がある🐘 |
 
 #### 2. Multiple usages
 
@@ -210,7 +210,7 @@ Emojiが明確に識別できるものであることが望まれます。
 
 ### Completeness
 
-一揃いの絵文字たちで欠けているものを補っているかどうかです。
+一揃いのEmojiの中で欠けているものを補っているかどうかです。
 
 例えば、🦂（サソリ）は12星座の中でEmojiから欠けていたので提案されました^[[Emoji Additions](https://www.unicode.org/L2/L2014/14174r-emoji-additions.pdf)]。
 
@@ -232,7 +232,7 @@ Emojiが明確に識別できるものであることが望まれます。
 
 ### Already representable
 
-既にある絵文字で意味を表現できる絵文字です。例えば、手洗いをしている絵文字の案は、前にも出てきた💦🧼🤲で「手洗い」を表現できるのでこの項目に該当します。
+既にあるEmojiで意味を表現できるものです。例えば、手洗いをしているEmojiの案は、前にも出てきた💦🧼🤲で「手洗い」を表現できるのでこの項目に該当します。
 
 ### Logos, brands, other third-party IP rights, UI icons, signage, specific people, specific buildings and landmarks, deities
 
@@ -281,7 +281,7 @@ http://blog.unicode.org/2023/01/whats-new-in-emoji-151.html
 
 例えば、🈯️ 🈴 🈺 🈁 🈳のようなものです。
 
-## Emojiの提案の通過率
+# Emojiの提案の通過率
 
 Emoji分科会は、過去にリクエストされたEmojiと、その審査結果を公開しています。
 
@@ -322,7 +322,7 @@ https://unicode.org/emoji/emoji-requests.html
 
 しかし、Emojiの採択にはさまざまな条件があり、提案されたEmojiのうち採択されるのはごく一部（2割以下）です。さらに採択されるまでには2年前後の長い年月がかかるので、「このEmojiはワシが作った👴」と言うには険しい道のりを歩む必要があります。
 
-ちなみに、「NGな条件」のところで、既存のEmojiを例としてたくさん列挙しました。今の条件では高確率で拒否されるこれらがなぜEmojiとして存在しているのか。それは、Emojiの仕様が最初に策定されたとき、絵文字の機器間の互換性を重視して、日本の携帯電話をはじめ当時あった絵文字をそのまま採用したからです。
+ちなみに、「NGな条件」のところで、既存のEmojiを例としてたくさん列挙しました。今の条件では高確率で拒否されるこれらがなぜEmojiとして存在しているのか。それは、Emojiの仕様が最初に策定されたとき、機器間の互換性を重視して、日本の携帯電話をはじめ当時あった絵文字をそのまま採用したからです。
 
 こうした背景から、現在に至るまでEmojiの種類や絵柄には日本の文化や言葉に根ざしたものが数多く存在しています。
 
@@ -332,7 +332,7 @@ https://unicode.org/emoji/emoji-requests.html
 
 # おまけ
 
-🗿（モアイ）の絵文字は、2016年にリリースされたEmoji 3.0まで、イースター島のモアイ像（Moai）のEmojiでなく、日本の**モヤイ像**（Moyai）のEmojiだったのをご存知でしょうか？
+🗿（モアイ）のEmojiは、2016年にリリースされたEmoji 3.0まで、イースター島のモアイ像（Moai）のEmojiでなく、日本の**モヤイ像**（Moyai）のEmojiだったのをご存知でしょうか？
 
 モヤイ像は、モアイ像をモデルにした伊豆諸島名物の石像のことで、渋谷駅前に佇んでいるものが有名です。
 
