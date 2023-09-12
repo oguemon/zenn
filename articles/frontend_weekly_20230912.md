@@ -55,7 +55,7 @@ Vercel社が手がけるビルドシステム[Turborepo](https://turbo.build/rep
 
 https://speakerdeck.com/tmikov2023/static-hermes-react-native-eu-2023-announcement
 
-React Nativeで動作しているFacebook製のJavaScriptランタイム[Hermes](https://github.com/facebook/hermes)の次世代バージョンStatic Hermesの紹介スライドです。Static Hermesでは、TypeScriptやFlowの型情報を用いてコンパイルを最適化しているのが特徴です。
+React Nativeで動作しているMeta製のJavaScriptランタイム[Hermes](https://github.com/facebook/hermes)の次世代バージョンStatic Hermesの紹介スライドです。Static Hermesでは、TypeScriptやFlowの型情報を用いてパフォーマンスの最適化をしているのが特徴です。
 
 ## Bun 1.0
 
