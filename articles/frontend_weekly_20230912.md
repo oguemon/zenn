@@ -3,7 +3,7 @@ title: "Bun 1.0のリリースなど: Cybozu Frontend Weekly (2023-09-12号)"
 emoji: "🧄"
 type: "tech"
 topics: ["CybozuFrontendWeekly", "frontend"]
-published: false
+published: true
 publication_name: "cybozu_frontend"
 ---
 
