@@ -51,7 +51,7 @@ https://blog.whatwg.org/url-pattern-standard
 
 URL PatternがLiving Standardに追加されたことを紹介する記事です。
 
-URL Patternは、`/posts/*`や`/books/:id`のような記法でURLのパターンを表現する構文仕様です。Living Standardに追加されたことで、各種ブラウザや、Next.jsをはじめとするライブラリでの実装を期待できます。
+URL Patternは、`/posts/*`や`/books/:id`のような記法でURLのパターンを表現する構文仕様です。この仕様は、DenoやCloudflare Workers、Next.js Edge Runtime、Netlify Functionsなどブラウザ以外でも既に採用されています。
 
 ## Remix ❤️ Vite | Remix
 
@@ -73,7 +73,7 @@ Closure Libraryが11月1日からメンテナンスモードに入り、2024年8
 
 https://github.com/storybookjs/storybook/issues/21540#issuecomment-1784953028
 
-StoryBookにおいて、数ヶ月以内にReact Server Componentが実験的にサポートされる予定であることが発表されました。
+StoryBookにおいて、数ヶ月以内にReact Server Componentsが実験的にサポートされる予定であることが発表されました。
 
 ## Deno 1.38: HTML doc generator and HMR
 
@@ -81,7 +81,7 @@ https://deno.com/blog/v1.38
 
 Deno 1.38がリリースされました。
 
-作成したモジュールに対してドキュメントサイトに使えるHTMLデータをコマンド1つで自動生成できるHTML doc generatorという機能などが追加されています。
+作成したモジュールに対してドキュメントとして公開できるHTMLをコマンド1つで自動生成できるHTML doc generatorという機能などが追加されています。
 
 ## State of React 2023
 
@@ -105,13 +105,13 @@ https://x.com/boshen_c/status/1719596594985681275
 
 Alipay（支付宝）が、独自のRustバンドラープロジェクト**Mako**を始めました。
 
-[元の動画](https://www.bilibili.com/video/BV15c411d7FZ/)によると、esbuildに次ぐパフォーマスが計測されています。
+[元の動画](https://www.bilibili.com/video/BV15c411d7FZ/)によると、esbuildに次ぐパフォーマンスが計測されています。
 
 ## A new way to bring garbage collected programming languages efficiently to WebAssembly
 
 https://v8.dev/blog/wasm-gc-porting
 
-ガベージコレクションを備えたプログラミング言語をWebAssemblyに効率的に移植する方法について技術的な解説を与えた記事です。
+ガベージコレクションを備えたプログラミング言語をWebAssemblyで効率的にサポートする方法について技術的な解説を与えた記事です。
 
 ## Write a JavaScript Parser in Rust
 
