@@ -3,7 +3,7 @@ title: "ESLintのフォーマット系ルールの廃止など: Cybozu Frontend 
 emoji: "🚮"
 type: "tech"
 topics: ["CybozuFrontendWeekly", "frontend"]
-published: false
+published: true
 publication_name: "cybozu_frontend"
 ---
 
