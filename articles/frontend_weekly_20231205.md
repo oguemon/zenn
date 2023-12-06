@@ -3,7 +3,7 @@ title: "State of JavaScript 2023の回答募集中など: Cybozu Frontend Weekly
 emoji: "👩‍💻"
 type: "tech"
 topics: ["CybozuFrontendWeekly", "frontend"]
-published: false
+published: true
 publication_name: "cybozu_frontend"
 ---
 
