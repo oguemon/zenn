@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "zenn-cli": "0.1.144",
-    "prettier": "3.0.0"
+    "zenn-cli": "0.1.150",
+    "prettier": "3.1.1"
   }
 }
