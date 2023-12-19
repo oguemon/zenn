@@ -237,7 +237,7 @@ https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Ob
 
 # まとめ
 
-JavaScriptのテスティングフレームワーク・[Jest](https://jestjs.io/ja/)のMatherの中で最も基本的なものである`toBe()`の挙動を、キワドイ例とともに確認してきました。
+JavaScriptのテスティングフレームワーク・[Jest](https://jestjs.io/ja/)のMatcherの中で最も基本的なものである`toBe()`の挙動を、キワドイ例とともに確認してきました。
 
 `toBe()`はJestの最も基本的なMatcherで、等価判定条件は`Object.is()`と全く同じ（`===`と**ほとんど**同じ）という点で非常にシンプルですが、いざ活用するとなると、数値やオブジェクトの扱いなど、JavaScriptの仕様が絡む注意点がいくつか潜んでいることが分かりました。
 
