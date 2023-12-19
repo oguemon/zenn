@@ -1,5 +1,5 @@
 ---
-title: 'JestのtoBe()を知る - To be, or not to be, that is the question.'
+title: 'To be, or not to be: JestのtoBe()の動きを知ろう！'
 emoji: "🎭"
 type: "tech"
 topics: ["jest", "javascript", "test"]
@@ -24,7 +24,7 @@ JavaScriptのテスティングフレームワークの定番である[Jest](htt
 > To be, or not to be, that is the question.
 > 『ハムレット』第3幕第1場より
 
-上に示したハムレットの有名な独白には様々な解釈と日本語訳が存在することが知られていますが、この章ではシンプルに各ケースで`expect(A).toBe(B)`と`expect(A).not.toBe(B)`のどちらでテストがパスするのか（＝前者でパスするか否か）を見ていきます。
+上に示したハムレットの有名な独白には様々な解釈と日本語訳が存在することが知られていますが、この章ではシンプルに各ケースで`expect(A).toBe(B)`と`expect(A).not.toBe(B)`のどちらでテストがパスするのか（＝前者でパスするか否か）をクイズ形式で見ていきます。
 
 ## 基本編
 
