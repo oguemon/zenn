@@ -3,7 +3,7 @@ title: 'To be, or not to be: JestのtoBe()の動きを知ろう！'
 emoji: "🎭"
 type: "tech"
 topics: ["jest", "javascript", "test"]
-published: false
+published: true
 publication_name: "cybozu_frontend"
 ---
 
