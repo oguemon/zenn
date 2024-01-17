@@ -87,7 +87,7 @@ PR TIMESで進められているフロントエンド刷新の技術構成を紹
 
 https://github.com/solidjs/solid-start/releases/tag/v0.4.0
 
-SolidJSのフレームワークSolidStartのv0.4.0-Beta2がリリースされました。TypeScriptの軽量サーバNitroを内部に組み込んだことなどが主な変更点です。
+SolidJSのフレームワークSolidStartのv0.4.0-Beta2がリリースされました。任意の場所にデプロイできるWebサーバーを構築するためのフレームワークNitroを内部に組み込んだことなどが主な変更点です。
 
 ## eBPFを使った自動テストツール「Keploy」がすごい
 
@@ -118,3 +118,5 @@ TypeScriptで活用できる型テクニックがいくつか紹介されてい�
 https://jser.info/2024/01/16/jser-13th/
 
 JavaScriptに関する情報を発信しているWebサイト「JSer.info」が13周年を迎えました。記事では、ドメイン別/GitHubレポジトリ別の紹介数を今昔で比較したり、13年間の継続を実現するための工夫が紹介されています。
+
+サイボウズでは、Frontend Weeklyにてフロントエンドトピックのキャッチアップに当サイトを活用しており、さらに**JSer.info Sponsor**として支援をしています。
