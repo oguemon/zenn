@@ -119,4 +119,4 @@ https://jser.info/2024/01/16/jser-13th/
 
 JavaScriptに関する情報を発信しているWebサイト「JSer.info」が13周年を迎えました。記事では、ドメイン別/GitHubレポジトリ別の紹介数を今昔で比較したり、13年間の継続を実現するための工夫が紹介されています。
 
-サイボウズでは、Frontend Weeklyにてフロントエンドトピックのキャッチアップに当サイトを活用しており、さらに**JSer.info Sponsor**として支援をしています。
+サイボウズは[JSer.info Sponsor](https://jser.info/sponsor/)であり、Frontend Weeklyにてフロントエンドトピックのキャッチアップに当サイトを活用しています。
