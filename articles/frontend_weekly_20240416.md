@@ -21,7 +21,7 @@ publication_name: "cybozu_frontend"
 
 https://github.com/brandonmcconnell/tailwindcss-mixins
 
-Tailwind CSSで`@mixin`が利用できるようになるプラグインです。`mixin:`などの記法で利用できます。
+Tailwind CSSで、複数の要素に同時に適用するユーティリティのグループを定義できるプラグインです。`mixin:`などの記法を利用できます。
 
 ## How we built JSR
 
