@@ -53,7 +53,7 @@ https://bun.sh/blog/bun-v1.1.5
 
 Bun v1.1.5の新機能や変更点を紹介する記事です。クロスコンパイルのサポートなどが追加されています。
 
-## May 1, 2024 Release
+## React Spectrum - May 1, 2024 Release
 
 https://react-spectrum.adobe.com/releases/2024-05-01.html
 
