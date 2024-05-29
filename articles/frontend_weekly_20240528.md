@@ -3,7 +3,7 @@ title: "Google I/O 2024で発表された10の最新情報など: Cybozu Fronten
 emoji: "👩‍🏫"
 type: "tech"
 topics: ["CybozuFrontendWeekly", "frontend"]
-published: false
+published: true
 publication_name: "cybozu_frontend"
 ---
 
