@@ -21,7 +21,7 @@ publication_name: "cybozu_frontend"
 
 https://product.st.inc/entry/2024/08/21/141549
 
-ネットショップサービス・[STORES](https://stores.jp/)がNuxt 3への移行を完了した旨を報告する記事です。[2022年12月の報告](https://product.st.inc/entry/2022/12/11/112330)の続編になります。
+[STORES](https://stores.jp/)がNuxt 3への移行を完了した旨を報告する記事です。[2022年12月の報告](https://product.st.inc/entry/2022/12/11/112330)の続編になります。
 
 刷新における工夫点や、移行により得られた恩恵などが紹介されています。
 
@@ -53,9 +53,9 @@ TypedSQLの特長は、SQL文を型安全に書くことができる点です。
 
 https://storybook.js.org/blog/component-testing/
 
-UI描画ツール・[Storybook](https://storybook.js.org/)を用いたコンポーネントテストの方法について紹介する記事です。
+[Storybook](https://storybook.js.org/)を用いたコンポーネントテストの方法について紹介する記事です。
 
-コンポーネントテストの方法のみならず、E2Eテストに対するパフォーマンス上の優位性なども述べられています。
+Storybookを使ったコンポーネントテストとはどういったものなのか、E2Eテストとのパフォーマンスの違いなどが述べられています。
 
 ## How to make your web page faster before it even loads
 
@@ -95,7 +95,7 @@ https://x.com/nextjs/status/1829620358066106706
 
 https://socket.dev/blog/node-js-takes-steps-towards-removing-corepack
 
-[Node.js](https://nodejs.org/en)のPackage Maintenance Working Group（PMWG）が、[Corepack](https://github.com/nodejs/corepack)を最終的にNode.jsの配布から削除する計画を発表した記事です。
+[Node.js](https://nodejs.org/en)のPackage Maintenance Working Group（PMWG）が[Corepack](https://github.com/nodejs/corepack)をNode.jsの配布から削除する計画と、その経緯をまとめた記事です。
 
 [Corepackを削除するPR](https://github.com/nodejs/node/pull/51981)には70を超えるコメントが寄せられ最終的にロックされるなど、削除の是非について物議を醸しています。
 
