@@ -3,7 +3,7 @@ title: "TypeScript 5.6の更新点など: Cybozu Frontend Weekly (2024-09-03号)
 emoji: "🆙"
 type: "tech"
 topics: ["CybozuFrontendWeekly", "frontend"]
-published: false
+published: true
 publication_name: "cybozu_frontend"
 ---
 
