@@ -21,7 +21,7 @@ publication_name: "cybozu_frontend"
 
 https://webkit.org/blog/16285/release-notes-for-safari-technology-preview-208/
 
-SafariのTechnology Preview 208のリリースノートです。CSSで`attr()`のfallbackがサポートされるなどの機能追加がされています。
+SafariのTechnology Preview 208のリリースノートです。CSSで`attr()`のfallbackがサポートされるなどの機能追加と、各種不具合の修正が含まれます。
 
 ## State of HTML 2024
 
@@ -53,7 +53,7 @@ https://thisweekinreact.com/newsletter/conferences/2024/react-summit-us-recap
 
 https://vite.dev/blog/announcing-vite6/
 
-[Vite](https://vite.dev/)のv6.0がリリースされました。新たにEnvironment APIが追加されるなどの変更が加えられています。
+[Vite](https://vite.dev/)のv6.0がリリースされました。新たにEnvironment APIが実験的機能として追加されるなどの変更が加えられています。
 
 ## Open UI Telecon - 21 November 2024
 
