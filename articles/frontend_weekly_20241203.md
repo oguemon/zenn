@@ -3,7 +3,7 @@ title: "State of HTML 2024など: Cybozu Frontend Weekly (2024-12-03号)"
 emoji: "📊"
 type: "tech"
 topics: ["CybozuFrontendWeekly", "frontend"]
-published: false
+published: true
 publication_name: "cybozu_frontend"
 ---
 
