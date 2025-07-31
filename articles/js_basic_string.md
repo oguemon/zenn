@@ -23,11 +23,15 @@ publication_name: "cybozu_frontend"
 
 https://zenn.dev/cybozu_frontend/articles/js_basic_array
 
+:::message
+
+以降のコードブロックの凡例です。
 ```js
-// 凡例
 const str = 'hello,' + 'world!'
 str // console.logした出力結果 ← 出力結果に対するコメント
 ```
+
+:::
 
 # 文字列を作る
 
