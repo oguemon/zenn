@@ -54,7 +54,7 @@ new String("Alice and Bob")
 `String()`と`new String()`は引数に文字列以外を入れると文字列に変換します。
 
 ```js
-String(731)  // '731' ← 文字列のプリミティブ
+String(731)     // '731' ← 文字列のプリミティブ
 new String(731) // String {'731'} ← 文字列のオブジェクト
 ```
 
@@ -158,8 +158,8 @@ const ymca = ['Y.', 'M.', 'C.', 'A.']
 `str.concat()`を用いて複数の文字列を結合することもできます。スプレッド構文`[...arr]`を用いると配列の全要素を丸ごと連結できます。
 
 ```js
-['Hello', 'World!'].join(', ')  // 'Hello, World!'
 ['2025', '07', '31'].join('-') // '2025-07-31'
+['Hello', 'World!'].join(', ') // 'Hello, World!'
 ['A', 'B', 'C'].join('')       // 'ABC'
 ```
 
@@ -224,15 +224,15 @@ const str = 'Hello, World!'
 
 // substringメソッドを使う方法
 str.substring(0, 5) // 'Hello'
-str.substring(7)    // 'World!'' ← 終了位置を省略すると末尾まで
+str.substring(7)    // 'World!' ← 終了位置を省略すると末尾まで
 str.substring(-6)   // 'Hello, World!' ← 負の値は0として扱われる
 str.substring(5, 0) // 'Hello' ← 開始位置の方が大きいなら引数を交換して扱う
 
 // sliceメソッドを使う方法
-str.slice(0, 5)   // 'Hello'
-str.slice(7)      // 'World!' ← 終了位置を省略すると末尾まで
-str.slice(-6)     // 'World!' ← 負の値で末尾から数える
-str.slice(5, 0)   // '' ← 開始位置の方が大きいなら空文字列
+str.slice(0, 5) // 'Hello'
+str.slice(7)    // 'World!' ← 終了位置を省略すると末尾まで
+str.slice(-6)   // 'World!' ← 負の値で末尾から数える
+str.slice(5, 0) // '' ← 開始位置の方が大きいなら空文字列
 ```
 
 どちらも指定した開始位置から終了位置までの部分文字列を返します。いずれも**終了位置の文字は含まれません**。
@@ -261,7 +261,7 @@ str.endsWith('World', 12) // true ← 12番目までが'World'で終わるか
 
 ```js
 const str = 'Hello, World!'
-str.includes('Wo') // true
+str.includes('Wo')      // true
 str.includes('Wo', 10)  // false ← 10番目以降に'Wo'があるか
 ```
 
@@ -398,8 +398,8 @@ str.trim()      // 'Hello, World!' ← 両端
 
 ```js
 const str = 'Hello, World!'
-str.toLowerCase()    // 'hello, world!'
-str.toUpperCase()    // 'HELLO, WORLD!'
+str.toLowerCase() // 'hello, world!'
+str.toUpperCase() // 'HELLO, WORLD!'
 
 // 日本語には影響しない
 'こんにちはHELLO'.toLowerCase() // 'こんにちはhello'
